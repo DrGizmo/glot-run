@@ -27,6 +27,14 @@ stop() ->
 
 applications() ->
     [
+        metrics,
+        crypto,
+        asn1,
+        public_key,
+        ssl,
+        ssl_verify_fun,
+        certifi,
+        mimerl,
         syntax_tools,
         compiler,
         goldrush,
