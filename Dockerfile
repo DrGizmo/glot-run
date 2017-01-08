@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:3.3
 MAINTAINER javiertitan@gmail.com
 
 RUN export DEPS="\
